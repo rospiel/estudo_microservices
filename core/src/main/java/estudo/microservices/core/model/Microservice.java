@@ -1,4 +1,4 @@
-package estudo.microservices.course.model;
+package estudo.microservices.core.model;
 
 import lombok.*;
 

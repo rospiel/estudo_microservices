@@ -1,0 +1,4 @@
+estudo\microservices\core\model\Microservice.class
+estudo\microservices\core\model\AbstractEntity.class
+estudo\microservices\core\model\Microservice$MicroserviceBuilder.class
+estudo\microservices\core\repository\MicroserviceRepository.class

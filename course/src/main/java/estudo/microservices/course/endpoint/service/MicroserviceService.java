@@ -1,7 +1,7 @@
 package estudo.microservices.course.endpoint.service;
 
-import estudo.microservices.course.model.Microservice;
-import estudo.microservices.course.repository.MicroserviceRepository;
+import estudo.microservices.core.model.Microservice;
+import estudo.microservices.core.repository.MicroserviceRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
