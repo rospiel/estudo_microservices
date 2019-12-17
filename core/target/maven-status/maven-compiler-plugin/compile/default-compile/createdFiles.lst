@@ -1,4 +1,10 @@
-estudo\microservices\core\model\Microservice.class
 estudo\microservices\core\model\AbstractEntity.class
 estudo\microservices\core\model\Microservice$MicroserviceBuilder.class
+estudo\microservices\core\model\ApplicationUser.class
+estudo\microservices\core\repository\ApplicationUserRepository.class
+estudo\microservices\core\model\Microservice.class
+estudo\microservices\core\model\ApplicationUser$ApplicationUserBuilder.class
+estudo\microservices\core\property\JwtConfiguration.class
+META-INF\spring-configuration-metadata.json
+estudo\microservices\core\property\JwtConfiguration$Header.class
 estudo\microservices\core\repository\MicroserviceRepository.class
