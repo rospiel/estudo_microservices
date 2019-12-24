@@ -17,6 +17,7 @@
     <properties>
         <java.version>11</java.version>
         <core.version>1.0-SNAPSHOT</core.version>
+        <token.version>1.0-SNAPSHOT</token.version>
     </properties>
 
     <dependencies>
@@ -41,6 +42,12 @@
                     <artifactId>flyway-core</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>estudo.microservices</groupId>
+            <artifactId>token</artifactId>
+            <version>${token.version}</version>
         </dependency>
     </dependencies>
 
