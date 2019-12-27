@@ -1,0 +1,5 @@
+estudo\microservices\security\config\SecurityTokenConfig.class
+estudo\microservices\security\token\converter\TokenConverter.class
+estudo\microservices\security\util\SecurityContextUtil.class
+estudo\microservices\security\filter\JwtTokenAuthorizationFilter.class
+estudo\microservices\security\token\creator\TokenCreator.class

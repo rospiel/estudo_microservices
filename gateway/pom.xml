@@ -16,6 +16,8 @@
 
     <properties>
         <java.version>11</java.version>
+        <token.version>1.0-SNAPSHOT</token.version>
+        <core.version>1.0-SNAPSHOT</core.version>
     </properties>
 
     <dependencies>
@@ -23,6 +25,24 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>estudo.microservices</groupId>
+            <artifactId>token</artifactId>
+            <version>${token.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>estudo.microservices</groupId>
+            <artifactId>core</artifactId>
+            <version>${core.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.flywaydb</groupId>
+                    <artifactId>flyway-core</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
      </dependencies>

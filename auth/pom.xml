@@ -48,6 +48,12 @@
             <groupId>estudo.microservices</groupId>
             <artifactId>token</artifactId>
             <version>${token.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.flywaydb</groupId>
+                    <artifactId>flyway-core</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 

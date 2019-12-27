@@ -26,3 +26,6 @@ spring:
     username: root
     password: admin
 
+jwt:
+  config:
+    type: signed
