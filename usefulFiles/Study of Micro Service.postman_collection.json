@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "ed1749c5-3471-43da-a08d-baa86d861183",
+		"name": "Study of Micro Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "List all Micro Services",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJjdHkiOiJKV1QiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..4BTT9K2dwj_IK-S7IH3NtQ.JDrZr020r7Vmhy7Hq3DeRUgSaO0P-eJX63OeJ4Y-J7kD-vjTiAWqczbJE143Tk969snmhKedoN8RJCLJ-84NRnnHnu2cu_r2GHujnP2aBwHb3HolfU62oOKvgEkwyDHiLx6iyqcLWnpTWRZR-eYgQ5sgI3fK3JKXLvAO0NiUDamJG8HEvq3WuutAdEA8guT7JZscXeA-dU2_Rzd-M_bgAWXRfYDThvW4GhTgmuCvU1pWhxolQbJOMzPMWYr8Jt08mluWOfPSwLQNMoqUrFWtE6N8ZmDxx4xE20tyN8X1aHVL7LczpaopMTqpERp0-Wb7h1ddYV3JiqH6YTGv8IUc6v9-ZPLS8rljv5H-CKR4Ff3THoXYl5GMtxwXnRj-r1B0wCTk7fGCtU5cth9KWYZTdjYa3w0281vk0JFpEaUjF5oS_JhQ_vbKzA-u8kuZqHvHyD1mWZigtcn6w2GP8i6roLb9oBSSmZmw1sUGj4nC543FneWx8K0Lv7DOie1RsJhwmai6hC6GuJ3hyOKQHW6BEXLstVmqpL-t-5kKMxOOk_pJb1Estxj-ZMqHZx-6YBAezQHep9FUxh_G5PXaokMA5k_GhH-5qH4gPwGqDD_UsDRrYwjlCBJZBOlMnszTY5cnfRQMELZA1LuByFmkul2s_lEfCv939LmGwK2tC-gkMPe1y4P8Z88jKTKFS5_L0jYDMsEUY6NKKdD3cCqg0WBMN-mLXVnd2Nqbrq079-5z0w45qkDsp9CxFxPIuWAidUazx8YeRVRb07JNfwkV6D9S6ysp9sQiJ2TJ3y7IP0MUPP8s3i4-_VwRg_7P9zLQh7BlffYr5mTMBmkOvkyX1wOvQkYAIpkPqkobqyKZWwbn078sFFN681mTf5yrKCJbuNNdM5LQ_LMO8xzYVOV1an7nJ1cbVbYPCeIFhPMKWLCva6nNAkOxUGMImPvHkz8g-grlhHFtWx6Jtl2tspFOeKEu52XslhfFpoP9n1FiCIc7tiVYd8opZfiw37TAfSPVOy8fPL_E08FSjA14M4OvXRIn2njmxWFWcy7z_0q7_awlajmE6vJsHnvTmCzB2v5Mcw9KuEKaq6sMKl8aRlo1M4j0t-CMLy63Vrw4EBNz4e-fQxSCR_VpF22zEYlCmaAp0qQGi5po29gMCYJuNkkG7sJ2DyneQvBcGSxhShGLsYLnsDDoX8ENRwTWSvyny07OulZmgAoNmOnx5kkpNbFuyIfWC7lyMQ0yLIvxxDIsUoAc6ExD0NXhkEL854ij24r3745U8Gm8hZxCwhhohE2v98Uw-3pQTC_9U7PZ2LqCRORqgpbRB4knx9coQkMxXHtjHbArglJI13n_xSA6XBO6hXlhQUUp_L5_lwvHN-yF_CUJ1ShaVZ_c0QEX-7ofxgL6vl6Py3WdGvoq4RgB-mssk_tRl7YIhPHzqFjiesdOPMP7osc.CAiJijZMt3eFd_okR3v1fw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{localUrl}}microservice/v1/admin/microservice",
+					"host": [
+						"{{localUrl}}microservice"
+					],
+					"path": [
+						"v1",
+						"admin",
+						"microservice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get info User",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJjdHkiOiJKV1QiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..4BTT9K2dwj_IK-S7IH3NtQ.JDrZr020r7Vmhy7Hq3DeRUgSaO0P-eJX63OeJ4Y-J7kD-vjTiAWqczbJE143Tk969snmhKedoN8RJCLJ-84NRnnHnu2cu_r2GHujnP2aBwHb3HolfU62oOKvgEkwyDHiLx6iyqcLWnpTWRZR-eYgQ5sgI3fK3JKXLvAO0NiUDamJG8HEvq3WuutAdEA8guT7JZscXeA-dU2_Rzd-M_bgAWXRfYDThvW4GhTgmuCvU1pWhxolQbJOMzPMWYr8Jt08mluWOfPSwLQNMoqUrFWtE6N8ZmDxx4xE20tyN8X1aHVL7LczpaopMTqpERp0-Wb7h1ddYV3JiqH6YTGv8IUc6v9-ZPLS8rljv5H-CKR4Ff3THoXYl5GMtxwXnRj-r1B0wCTk7fGCtU5cth9KWYZTdjYa3w0281vk0JFpEaUjF5oS_JhQ_vbKzA-u8kuZqHvHyD1mWZigtcn6w2GP8i6roLb9oBSSmZmw1sUGj4nC543FneWx8K0Lv7DOie1RsJhwmai6hC6GuJ3hyOKQHW6BEXLstVmqpL-t-5kKMxOOk_pJb1Estxj-ZMqHZx-6YBAezQHep9FUxh_G5PXaokMA5k_GhH-5qH4gPwGqDD_UsDRrYwjlCBJZBOlMnszTY5cnfRQMELZA1LuByFmkul2s_lEfCv939LmGwK2tC-gkMPe1y4P8Z88jKTKFS5_L0jYDMsEUY6NKKdD3cCqg0WBMN-mLXVnd2Nqbrq079-5z0w45qkDsp9CxFxPIuWAidUazx8YeRVRb07JNfwkV6D9S6ysp9sQiJ2TJ3y7IP0MUPP8s3i4-_VwRg_7P9zLQh7BlffYr5mTMBmkOvkyX1wOvQkYAIpkPqkobqyKZWwbn078sFFN681mTf5yrKCJbuNNdM5LQ_LMO8xzYVOV1an7nJ1cbVbYPCeIFhPMKWLCva6nNAkOxUGMImPvHkz8g-grlhHFtWx6Jtl2tspFOeKEu52XslhfFpoP9n1FiCIc7tiVYd8opZfiw37TAfSPVOy8fPL_E08FSjA14M4OvXRIn2njmxWFWcy7z_0q7_awlajmE6vJsHnvTmCzB2v5Mcw9KuEKaq6sMKl8aRlo1M4j0t-CMLy63Vrw4EBNz4e-fQxSCR_VpF22zEYlCmaAp0qQGi5po29gMCYJuNkkG7sJ2DyneQvBcGSxhShGLsYLnsDDoX8ENRwTWSvyny07OulZmgAoNmOnx5kkpNbFuyIfWC7lyMQ0yLIvxxDIsUoAc6ExD0NXhkEL854ij24r3745U8Gm8hZxCwhhohE2v98Uw-3pQTC_9U7PZ2LqCRORqgpbRB4knx9coQkMxXHtjHbArglJI13n_xSA6XBO6hXlhQUUp_L5_lwvHN-yF_CUJ1ShaVZ_c0QEX-7ofxgL6vl6Py3WdGvoq4RgB-mssk_tRl7YIhPHzqFjiesdOPMP7osc.CAiJijZMt3eFd_okR3v1fw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{localUrl}}auth/user/info",
+					"host": [
+						"{{localUrl}}auth"
+					],
+					"path": [
+						"user",
+						"info"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"rodrigo\", \"password\":\"estudo\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{localUrl}}auth/login",
+					"host": [
+						"{{localUrl}}auth"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

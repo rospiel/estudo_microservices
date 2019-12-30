@@ -3,6 +3,7 @@ package estudo.microservices.security.config;
 import estudo.microservices.core.property.JwtConfiguration;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.web.cors.CorsConfiguration;
@@ -26,9 +27,10 @@ public class SecurityTokenConfig extends WebSecurityConfigurerAdapter {
                 .exceptionHandling().authenticationEntryPoint(((request, response, authException) -> response.sendError(HttpServletResponse.SC_UNAUTHORIZED)))
                 .and()
                 .authorizeRequests()
-                .antMatchers(jwtConfiguration.getLoginUrl()).permitAll()
                 .antMatchers("/microservice/v1/admin/**").hasRole("ADMIN")
-                .antMatchers("/auth/user/admin/**").hasRole("ADMIN")
+                .antMatchers("/auth/user/**").hasRole("ADMIN")
+                .antMatchers(jwtConfiguration.getLoginUrl(), "/**/swagger-ui.html").permitAll()
+                .antMatchers(HttpMethod.GET, "/**/swagger-resources/**", "/**/webjars/springfox-swagger-ui/", "/**/").permitAll()
                 .anyRequest().authenticated();
 
     }

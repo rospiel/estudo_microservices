@@ -2,27 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="400bd457-ecee-465d-a994-dfd7c44fac4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/microservices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/microservices.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/main/java/estudo/microservices/auth/security/config/SecurityCredentialsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/estudo/microservices/auth/security/config/SecurityCredentialsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/estudo/microservices/auth/endpoint/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/estudo/microservices/auth/endpoint/controller/UserInfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/estudo/microservices/core/model/ApplicationUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/estudo/microservices/core/model/ApplicationUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/estudo/microservices/core/model/ApplicationUser$ApplicationUserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/estudo/microservices/core/model/ApplicationUser$ApplicationUserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/estudo/microservices/core/model/ApplicationUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/estudo/microservices/core/model/ApplicationUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/estudo/microservices/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/estudo/microservices/gateway/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/token/src/main/java/estudo/microservices/security/config/SecurityTokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/token/src/main/java/estudo/microservices/security/config/SecurityTokenConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token/src/main/java/estudo/microservices/security/token/creator/TokenCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/token/src/main/java/estudo/microservices/security/token/creator/TokenCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/token/target/classes/estudo/microservices/security/config/SecurityTokenConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/token/target/classes/estudo/microservices/security/config/SecurityTokenConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token/target/classes/estudo/microservices/security/token/creator/TokenCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/token/target/classes/estudo/microservices/security/token/creator/TokenCreator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/token/token.iml" beforeDir="false" afterPath="$PROJECT_DIR$/token/token.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,7 +101,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/usefulFiles" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -121,11 +110,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="estudo.microservices.auth.docs" />
       <recent name="estudo.microservices.security.config" />
       <recent name="estudo.microservices.core.repository" />
       <recent name="estudo.microservices.core.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rodri\IdeaProjects\microservices\usefulFiles" />
       <recent name="C:\Users\rodri\IdeaProjects\microservices\core\src\main\java" />
     </key>
   </component>
@@ -209,12 +200,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6e575fb2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@18aba" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6e575fb2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d1beaa17" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@18aba" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@aff4f6c4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -244,6 +235,8 @@
       <workItem from="1577185157369" duration="18275000" />
       <workItem from="1577279767779" duration="15410000" />
       <workItem from="1577365869213" duration="7856000" />
+      <workItem from="1577462410661" duration="7906000" />
+      <workItem from="1577708097180" duration="3850000" />
     </task>
     <servers />
   </component>
@@ -272,19 +265,9 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/token/src/main/java/estudo/microservices/security/filter/JwtTokenAuthorizationFilter.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/course/src/main/java/estudo/microservices/course/security/config/SecurityCredentialsConfig.java</url>
           <line>29</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gateway/src/main/java/estudo/microservices/gateway/security/filter/GatewayJwtTokenAuthorizationFilter.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
