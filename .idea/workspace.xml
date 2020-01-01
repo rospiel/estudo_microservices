@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="400bd457-ecee-465d-a994-dfd7c44fac4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/microservices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/microservices.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/main/java/estudo/microservices/auth/endpoint/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/estudo/microservices/auth/endpoint/controller/UserInfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/estudo/microservices/core/model/Microservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/estudo/microservices/core/model/Microservice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/estudo/microservices/core/model/Microservice.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/estudo/microservices/core/model/Microservice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token/src/main/java/estudo/microservices/security/config/SecurityTokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/token/src/main/java/estudo/microservices/security/config/SecurityTokenConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token/target/classes/estudo/microservices/security/config/SecurityTokenConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/token/target/classes/estudo/microservices/security/config/SecurityTokenConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/token/token.iml" beforeDir="false" afterPath="$PROJECT_DIR$/token/token.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -142,11 +139,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in auth">
-    <configuration name="All in auth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auth" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+  <component name="RunManager" selected="JUnit.MicroserviceRepositoryTest.createWhenNomeIsNullShouldThrowConstraintViolationException">
+    <configuration name="MicroserviceRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estudo.microservices.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="estudo.microservices.course" />
+      <option name="MAIN_CLASS_NAME" value="estudo.microservices.course.MicroserviceRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceRepositoryTest.createShouldPersistData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estudo.microservices.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="estudo.microservices.course" />
+      <option name="MAIN_CLASS_NAME" value="estudo.microservices.course.MicroserviceRepositoryTest" />
+      <option name="METHOD_NAME" value="createShouldPersistData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceRepositoryTest.createWhenNomeIsNullShouldThrowConstraintViolationException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estudo.microservices.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="estudo.microservices.course" />
+      <option name="MAIN_CLASS_NAME" value="estudo.microservices.course.MicroserviceRepositoryTest" />
+      <option name="METHOD_NAME" value="createWhenNomeIsNullShouldThrowConstraintViolationException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceRepositoryTest.deleteShouldRemoveData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estudo.microservices.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="estudo.microservices.course" />
+      <option name="MAIN_CLASS_NAME" value="estudo.microservices.course.MicroserviceRepositoryTest" />
+      <option name="METHOD_NAME" value="deleteShouldRemoveData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceRepositoryTest.updateShouldChangeAndPersistData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estudo.microservices.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="estudo.microservices.course" />
+      <option name="MAIN_CLASS_NAME" value="estudo.microservices.course.MicroserviceRepositoryTest" />
+      <option name="METHOD_NAME" value="updateShouldChangeAndPersistData" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,7 +248,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in auth" />
+      <item itemvalue="JUnit.MicroserviceRepositoryTest.createShouldPersistData" />
+      <item itemvalue="JUnit.MicroserviceRepositoryTest.deleteShouldRemoveData" />
+      <item itemvalue="JUnit.MicroserviceRepositoryTest.updateShouldChangeAndPersistData" />
+      <item itemvalue="JUnit.MicroserviceRepositoryTest.createWhenNomeIsNullShouldThrowConstraintViolationException" />
+      <item itemvalue="JUnit.MicroserviceRepositoryTest" />
       <item itemvalue="Spring Boot.DiscoveryApplication" />
       <item itemvalue="Spring Boot.CourseApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
@@ -188,7 +260,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in auth" />
+        <item itemvalue="JUnit.MicroserviceRepositoryTest.createWhenNomeIsNullShouldThrowConstraintViolationException" />
+        <item itemvalue="JUnit.MicroserviceRepositoryTest.updateShouldChangeAndPersistData" />
+        <item itemvalue="JUnit.MicroserviceRepositoryTest.deleteShouldRemoveData" />
+        <item itemvalue="JUnit.MicroserviceRepositoryTest.createShouldPersistData" />
+        <item itemvalue="JUnit.MicroserviceRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +281,7 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@18aba" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@aff4f6c4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d507dc0b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -236,7 +312,9 @@
       <workItem from="1577279767779" duration="15410000" />
       <workItem from="1577365869213" duration="7856000" />
       <workItem from="1577462410661" duration="7906000" />
-      <workItem from="1577708097180" duration="3850000" />
+      <workItem from="1577708097180" duration="13472000" />
+      <workItem from="1577797777680" duration="605000" />
+      <workItem from="1577890616687" duration="1134000" />
     </task>
     <servers />
   </component>

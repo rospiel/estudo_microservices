@@ -19,18 +19,6 @@
       "defaultValue": 3600
     },
     {
-      "name": "jwt.config.header.name",
-      "type": "java.lang.String",
-      "sourceType": "estudo.microservices.core.property.JwtConfiguration$Header",
-      "defaultValue": "Authorization"
-    },
-    {
-      "name": "jwt.config.header.prefix",
-      "type": "java.lang.String",
-      "sourceType": "estudo.microservices.core.property.JwtConfiguration$Header",
-      "defaultValue": "Bearer "
-    },
-    {
       "name": "jwt.config.login-url",
       "type": "java.lang.String",
       "sourceType": "estudo.microservices.core.property.JwtConfiguration",

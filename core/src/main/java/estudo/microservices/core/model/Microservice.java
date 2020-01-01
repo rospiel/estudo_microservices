@@ -15,6 +15,10 @@ import javax.validation.constraints.NotNull;
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Microservice implements AbstractEntity {
 
+    public Microservice(String nome) {
+        this.nome = nome;
+    }
+
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     @Id
@@ -26,6 +30,6 @@ public class Microservice implements AbstractEntity {
 
     @Override
     public Long getId() {
-        return null;
+        return id;
     }
 }
