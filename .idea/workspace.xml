@@ -6,9 +6,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/estudo/microservices/core/model/Microservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/estudo/microservices/core/model/Microservice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/estudo/microservices/core/model/Microservice.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/estudo/microservices/core/model/Microservice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/token/src/main/java/estudo/microservices/security/config/SecurityTokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/token/src/main/java/estudo/microservices/security/config/SecurityTokenConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/token/target/classes/estudo/microservices/security/config/SecurityTokenConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/token/target/classes/estudo/microservices/security/config/SecurityTokenConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/token/token.iml" beforeDir="false" afterPath="$PROJECT_DIR$/token/token.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,7 +99,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/usefulFiles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/course/src/main/resources/db/migration" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -113,6 +114,7 @@
       <recent name="estudo.microservices.core.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rodri\IdeaProjects\microservices\course\src\main\resources\db\migration" />
       <recent name="C:\Users\rodri\IdeaProjects\microservices\usefulFiles" />
       <recent name="C:\Users\rodri\IdeaProjects\microservices\core\src\main\java" />
     </key>
@@ -139,7 +141,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MicroserviceRepositoryTest.createWhenNomeIsNullShouldThrowConstraintViolationException">
+  <component name="RunManager" selected="JUnit.MicroserviceRepositoryTest">
+    <configuration name="MicroserviceEndpointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estudo.microservices.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="estudo.microservices.course" />
+      <option name="MAIN_CLASS_NAME" value="estudo.microservices.course.MicroserviceEndpointTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceEndpointTest.listMicroservicesWhenTokenIsIncorrectShouldReturnCode401" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estudo.microservices.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="estudo.microservices.course" />
+      <option name="MAIN_CLASS_NAME" value="estudo.microservices.course.MicroserviceEndpointTest" />
+      <option name="METHOD_NAME" value="listMicroservicesWhenTokenIsIncorrectShouldReturnCode401" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceEndpointTest.listMicroservicesWhenTokenIsIncorrectShouldReturnCode403" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estudo.microservices.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="estudo.microservices.course" />
+      <option name="MAIN_CLASS_NAME" value="estudo.microservices.course.MicroserviceEndpointTest" />
+      <option name="METHOD_NAME" value="listMicroservicesWhenTokenIsIncorrectShouldReturnCode403" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceEndpointTest.listMicroservicesWhenUsernameAndPasswordAreCorrectShouldReturnCode200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estudo.microservices.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="estudo.microservices.course" />
+      <option name="MAIN_CLASS_NAME" value="estudo.microservices.course.MicroserviceEndpointTest" />
+      <option name="METHOD_NAME" value="listMicroservicesWhenUsernameAndPasswordAreCorrectShouldReturnCode200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MicroserviceRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="course" />
       <extension name="coverage">
@@ -151,70 +216,6 @@
       <option name="PACKAGE_NAME" value="estudo.microservices.course" />
       <option name="MAIN_CLASS_NAME" value="estudo.microservices.course.MicroserviceRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MicroserviceRepositoryTest.createShouldPersistData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="estudo.microservices.course.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="estudo.microservices.course" />
-      <option name="MAIN_CLASS_NAME" value="estudo.microservices.course.MicroserviceRepositoryTest" />
-      <option name="METHOD_NAME" value="createShouldPersistData" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MicroserviceRepositoryTest.createWhenNomeIsNullShouldThrowConstraintViolationException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="estudo.microservices.course.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="estudo.microservices.course" />
-      <option name="MAIN_CLASS_NAME" value="estudo.microservices.course.MicroserviceRepositoryTest" />
-      <option name="METHOD_NAME" value="createWhenNomeIsNullShouldThrowConstraintViolationException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MicroserviceRepositoryTest.deleteShouldRemoveData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="estudo.microservices.course.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="estudo.microservices.course" />
-      <option name="MAIN_CLASS_NAME" value="estudo.microservices.course.MicroserviceRepositoryTest" />
-      <option name="METHOD_NAME" value="deleteShouldRemoveData" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MicroserviceRepositoryTest.updateShouldChangeAndPersistData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="estudo.microservices.course.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="estudo.microservices.course" />
-      <option name="MAIN_CLASS_NAME" value="estudo.microservices.course.MicroserviceRepositoryTest" />
-      <option name="METHOD_NAME" value="updateShouldChangeAndPersistData" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -248,23 +249,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MicroserviceRepositoryTest.createShouldPersistData" />
-      <item itemvalue="JUnit.MicroserviceRepositoryTest.deleteShouldRemoveData" />
-      <item itemvalue="JUnit.MicroserviceRepositoryTest.updateShouldChangeAndPersistData" />
-      <item itemvalue="JUnit.MicroserviceRepositoryTest.createWhenNomeIsNullShouldThrowConstraintViolationException" />
-      <item itemvalue="JUnit.MicroserviceRepositoryTest" />
+      <item itemvalue="JUnit.MicroserviceEndpointTest.listMicroservicesWhenUsernameAndPasswordAreCorrectShouldReturnCode200" />
+      <item itemvalue="JUnit.MicroserviceEndpointTest.listMicroservicesWhenTokenIsIncorrectShouldReturnCode403" />
       <item itemvalue="Spring Boot.DiscoveryApplication" />
       <item itemvalue="Spring Boot.CourseApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="JUnit.MicroserviceEndpointTest" />
+      <item itemvalue="JUnit.MicroserviceEndpointTest.listMicroservicesWhenTokenIsIncorrectShouldReturnCode401" />
+      <item itemvalue="JUnit.MicroserviceRepositoryTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MicroserviceRepositoryTest.createWhenNomeIsNullShouldThrowConstraintViolationException" />
-        <item itemvalue="JUnit.MicroserviceRepositoryTest.updateShouldChangeAndPersistData" />
-        <item itemvalue="JUnit.MicroserviceRepositoryTest.deleteShouldRemoveData" />
-        <item itemvalue="JUnit.MicroserviceRepositoryTest.createShouldPersistData" />
         <item itemvalue="JUnit.MicroserviceRepositoryTest" />
+        <item itemvalue="JUnit.MicroserviceEndpointTest" />
+        <item itemvalue="JUnit.MicroserviceEndpointTest.listMicroservicesWhenUsernameAndPasswordAreCorrectShouldReturnCode200" />
+        <item itemvalue="JUnit.MicroserviceEndpointTest.listMicroservicesWhenTokenIsIncorrectShouldReturnCode401" />
+        <item itemvalue="JUnit.MicroserviceEndpointTest.listMicroservicesWhenTokenIsIncorrectShouldReturnCode403" />
       </list>
     </recent_temporary>
   </component>
@@ -276,12 +277,17 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@18aba" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@83965dac" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@18aba" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d507dc0b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@83965dac" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e2c009f3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@83965dac" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@580cd19d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -314,7 +320,10 @@
       <workItem from="1577462410661" duration="7906000" />
       <workItem from="1577708097180" duration="13472000" />
       <workItem from="1577797777680" duration="605000" />
-      <workItem from="1577890616687" duration="1134000" />
+      <workItem from="1577890616687" duration="11889000" />
+      <workItem from="1577917304246" duration="1818000" />
+      <workItem from="1578067756266" duration="13276000" />
+      <workItem from="1578154330509" duration="2444000" />
     </task>
     <servers />
   </component>
@@ -337,11 +346,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/token/src/main/java/estudo/microservices/security/filter/JwtTokenAuthorizationFilter.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/course/src/main/java/estudo/microservices/course/security/config/SecurityCredentialsConfig.java</url>
           <line>29</line>

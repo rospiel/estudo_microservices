@@ -22,7 +22,7 @@ public class Microservice implements AbstractEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     @Id
-    private Long id;
+    protected Long id;
 
     @NotNull(message = "The field 'nome' is mandatory")
     @Column(nullable = false)

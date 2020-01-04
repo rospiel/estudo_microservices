@@ -27,6 +27,7 @@ public class MicroserviceController {
     @GetMapping(produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     @ApiOperation(value = "List all micro services", response = Microservice[].class)
     public ResponseEntity<Iterable<Microservice>> list(Pageable pageable) {
-        return new ResponseEntity<>(microserviceService.list(pageable), HttpStatus.OK);
+        Iterable<Microservice> list = microserviceService.list(pageable);
+        return new ResponseEntity<>(list, HttpStatus.OK);
     }
 }

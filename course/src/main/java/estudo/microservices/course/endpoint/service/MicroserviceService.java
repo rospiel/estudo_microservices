@@ -16,6 +16,7 @@ public class MicroserviceService {
 
     public Iterable<Microservice> list (Pageable pageable) {
         log.info("Listing all microservices");
-        return microserviceRepository.findAll(pageable);
+        Iterable<Microservice> microservices = microserviceRepository.findAll(pageable);
+        return microservices;
     }
 }

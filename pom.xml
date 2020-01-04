@@ -28,6 +28,7 @@
         <nimbus-jose.version>7.0.1</nimbus-jose.version>
         <commons-lang3.version>3.8.1</commons-lang3.version>
         <swagger.version>2.9.2</swagger.version>
+        <wiremock.version>2.6.0</wiremock.version>
     </properties>
 
     <dependencies>
@@ -100,8 +101,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
+            <groupId>com.github.tomakehurst</groupId>
+            <artifactId>wiremock-standalone</artifactId>
+            <version>${wiremock.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

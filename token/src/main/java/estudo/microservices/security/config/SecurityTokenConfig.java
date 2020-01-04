@@ -28,6 +28,7 @@ public class SecurityTokenConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers("/microservice/v1/admin/**").hasRole("ADMIN")
+                .antMatchers("/v1/admin/**").hasRole("ADMIN")
                 .antMatchers("/auth/user/**").hasRole("ADMIN")
                 .antMatchers(jwtConfiguration.getLoginUrl(), "/**/swagger-ui.html").permitAll()
                 .antMatchers(HttpMethod.GET, "/**/swagger-resources/**", "/**/webjars/springfox-swagger-ui/", "/**/").permitAll()
